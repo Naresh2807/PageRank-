@@ -1,0 +1,7 @@
+*.sqlite3
+*.pyc
+internet/*/migrations/*
+!internet/*/migrations/__init__.py
+pgrankserver/*/migrations/*
+!pgrankserver/*/migrations/__init__.py
+env

@@ -1,0 +1,246 @@
+2022-01-31 16:04:37 [scrapy.utils.log] INFO: Scrapy 2.5.1 started (bot: oswald)
+2022-01-31 16:04:37 [scrapy.utils.log] INFO: Versions: lxml 4.7.1.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 21.7.0, Python 3.8.5 (default, Jul 28 2020, 12:59:40) - [GCC 9.3.0], pyOpenSSL 22.0.0 (OpenSSL 1.1.1m  14 Dec 2021), cryptography 36.0.1, Platform Linux-5.4.0-7642-generic-x86_64-with-glibc2.29
+2022-01-31 16:04:37 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+2022-01-31 16:04:37 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'oswald',
+ 'LOG_FILE': 'scrapy.log',
+ 'NEWSPIDER_MODULE': 'oswald.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['oswald.spiders']}
+2022-01-31 16:04:37 [scrapy.extensions.telnet] INFO: Telnet Password: b1222eee7eee31f9
+2022-01-31 16:04:37 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2022-01-31 16:04:37 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-01-31 16:04:37 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-01-31 16:04:37 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-01-31 16:04:37 [scrapy.core.engine] INFO: Spider opened
+2022-01-31 16:04:37 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-01-31 16:04:37 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-01-31 16:04:37 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://127.0.0.1:8000/robots.txt> (referer: None)
+2022-01-31 16:04:37 [protego] DEBUG: Rule at line 8 without any user agent to enforce it on.
+2022-01-31 16:04:37 [protego] DEBUG: Rule at line 9 without any user agent to enforce it on.
+2022-01-31 16:04:37 [protego] DEBUG: Rule at line 10 without any user agent to enforce it on.
+2022-01-31 16:04:37 [protego] DEBUG: Rule at line 11 without any user agent to enforce it on.
+2022-01-31 16:04:37 [protego] DEBUG: Rule at line 12 without any user agent to enforce it on.
+2022-01-31 16:04:37 [protego] DEBUG: Rule at line 13 without any user agent to enforce it on.
+2022-01-31 16:04:37 [protego] DEBUG: Rule at line 14 without any user agent to enforce it on.
+2022-01-31 16:04:37 [protego] DEBUG: Rule at line 15 without any user agent to enforce it on.
+2022-01-31 16:04:37 [protego] DEBUG: Rule at line 16 without any user agent to enforce it on.
+2022-01-31 16:04:37 [protego] DEBUG: Rule at line 17 without any user agent to enforce it on.
+2022-01-31 16:04:37 [protego] DEBUG: Rule at line 23 without any user agent to enforce it on.
+2022-01-31 16:04:37 [protego] DEBUG: Rule at line 32 without any user agent to enforce it on.
+2022-01-31 16:04:37 [protego] DEBUG: Rule at line 36 without any user agent to enforce it on.
+2022-01-31 16:04:37 [protego] DEBUG: Rule at line 37 without any user agent to enforce it on.
+2022-01-31 16:04:37 [protego] DEBUG: Rule at line 62 without any user agent to enforce it on.
+2022-01-31 16:04:37 [protego] DEBUG: Rule at line 72 without any user agent to enforce it on.
+2022-01-31 16:04:37 [protego] DEBUG: Rule at line 82 without any user agent to enforce it on.
+2022-01-31 16:04:37 [protego] DEBUG: Rule at line 92 without any user agent to enforce it on.
+2022-01-31 16:04:37 [protego] DEBUG: Rule at line 102 without any user agent to enforce it on.
+2022-01-31 16:04:37 [protego] DEBUG: Rule at line 112 without any user agent to enforce it on.
+2022-01-31 16:04:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://127.0.0.1:8000/cars/c14> (referer: None)
+2022-01-31 16:04:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://127.0.0.1:8000/cars/c14>
+{'http://127.0.0.1:8000/movies/m29': 0}
+2022-01-31 16:04:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://127.0.0.1:8000/movies/m29> (referer: http://127.0.0.1:8000/cars/c14)
+2022-01-31 16:04:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://127.0.0.1:8000/movies/m29>
+{'http://127.0.0.1:8000/health/h4': 1}
+2022-01-31 16:04:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://127.0.0.1:8000/health/h4> (referer: http://127.0.0.1:8000/movies/m29)
+2022-01-31 16:04:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://127.0.0.1:8000/health/h4>
+{'http://127.0.0.1:8000/cars/c13': 2}
+2022-01-31 16:04:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://127.0.0.1:8000/cars/c13> (referer: http://127.0.0.1:8000/health/h4)
+2022-01-31 16:04:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://127.0.0.1:8000/cars/c13>
+{'http://127.0.0.1:8000/movies/m28': 3}
+2022-01-31 16:04:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://127.0.0.1:8000/movies/m28> (referer: http://127.0.0.1:8000/cars/c13)
+2022-01-31 16:04:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://127.0.0.1:8000/movies/m28>
+{'http://127.0.0.1:8000/animals/a16': 4}
+2022-01-31 16:04:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://127.0.0.1:8000/animals/a16> (referer: http://127.0.0.1:8000/movies/m28)
+2022-01-31 16:04:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://127.0.0.1:8000/animals/a16>
+{'http://127.0.0.1:8000/movies/m27': 5}
+2022-01-31 16:04:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://127.0.0.1:8000/movies/m27> (referer: http://127.0.0.1:8000/animals/a16)
+2022-01-31 16:04:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://127.0.0.1:8000/movies/m27>
+{'http://127.0.0.1:8000/animals/a17': 6}
+2022-01-31 16:04:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://127.0.0.1:8000/animals/a17> (referer: http://127.0.0.1:8000/movies/m27)
+2022-01-31 16:04:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://127.0.0.1:8000/animals/a17>
+{'http://127.0.0.1:8000/health/h3': 7}
+2022-01-31 16:04:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://127.0.0.1:8000/health/h3> (referer: http://127.0.0.1:8000/animals/a17)
+2022-01-31 16:04:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://127.0.0.1:8000/health/h3>
+{'http://127.0.0.1:8000/technology/t7': 8}
+2022-01-31 16:04:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://127.0.0.1:8000/technology/t7> (referer: http://127.0.0.1:8000/health/h3)
+2022-01-31 16:04:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://127.0.0.1:8000/technology/t7>
+{'http://127.0.0.1:8000/animals/a15': 9}
+2022-01-31 16:04:38 [scrapy.dupefilters] DEBUG: Filtered duplicate request: <GET http://127.0.0.1:8000/animals/a17> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2022-01-31 16:04:38 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-01-31 16:04:38 [scrapy.extensions.feedexport] INFO: Stored json feed (10 items) in: websites.json
+2022-01-31 16:04:38 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2791,
+ 'downloader/request_count': 11,
+ 'downloader/request_method_count/GET': 11,
+ 'downloader/response_bytes': 14493,
+ 'downloader/response_count': 11,
+ 'downloader/response_status_count/200': 10,
+ 'downloader/response_status_count/404': 1,
+ 'dupefilter/filtered': 1,
+ 'elapsed_time_seconds': 1.162104,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 1, 31, 10, 34, 38, 261398),
+ 'item_scraped_count': 10,
+ 'log_count/DEBUG': 42,
+ 'log_count/INFO': 11,
+ 'memusage/max': 56848384,
+ 'memusage/startup': 56848384,
+ 'request_depth_max': 10,
+ 'response_received_count': 11,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/404': 1,
+ 'scheduler/dequeued': 10,
+ 'scheduler/dequeued/memory': 10,
+ 'scheduler/enqueued': 10,
+ 'scheduler/enqueued/memory': 10,
+ 'start_time': datetime.datetime(2022, 1, 31, 10, 34, 37, 99294)}
+2022-01-31 16:04:38 [scrapy.core.engine] INFO: Spider closed (finished)
+2022-01-31 16:05:30 [scrapy.utils.log] INFO: Scrapy 2.5.1 started (bot: oswald)
+2022-01-31 16:05:30 [scrapy.utils.log] INFO: Versions: lxml 4.7.1.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 21.7.0, Python 3.8.5 (default, Jul 28 2020, 12:59:40) - [GCC 9.3.0], pyOpenSSL 22.0.0 (OpenSSL 1.1.1m  14 Dec 2021), cryptography 36.0.1, Platform Linux-5.4.0-7642-generic-x86_64-with-glibc2.29
+2022-01-31 16:05:30 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+2022-01-31 16:05:30 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'oswald',
+ 'LOG_FILE': 'scrapy.log',
+ 'NEWSPIDER_MODULE': 'oswald.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['oswald.spiders']}
+2022-01-31 16:05:30 [scrapy.extensions.telnet] INFO: Telnet Password: 54e580fdc68d254d
+2022-01-31 16:05:30 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2022-01-31 16:05:30 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-01-31 16:05:30 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-01-31 16:05:30 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-01-31 16:05:30 [scrapy.core.engine] INFO: Spider opened
+2022-01-31 16:05:30 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-01-31 16:05:30 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-01-31 16:05:30 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://127.0.0.1:8000/robots.txt> (referer: None)
+2022-01-31 16:05:30 [protego] DEBUG: Rule at line 8 without any user agent to enforce it on.
+2022-01-31 16:05:30 [protego] DEBUG: Rule at line 9 without any user agent to enforce it on.
+2022-01-31 16:05:30 [protego] DEBUG: Rule at line 10 without any user agent to enforce it on.
+2022-01-31 16:05:30 [protego] DEBUG: Rule at line 11 without any user agent to enforce it on.
+2022-01-31 16:05:30 [protego] DEBUG: Rule at line 12 without any user agent to enforce it on.
+2022-01-31 16:05:30 [protego] DEBUG: Rule at line 13 without any user agent to enforce it on.
+2022-01-31 16:05:30 [protego] DEBUG: Rule at line 14 without any user agent to enforce it on.
+2022-01-31 16:05:30 [protego] DEBUG: Rule at line 15 without any user agent to enforce it on.
+2022-01-31 16:05:30 [protego] DEBUG: Rule at line 16 without any user agent to enforce it on.
+2022-01-31 16:05:30 [protego] DEBUG: Rule at line 17 without any user agent to enforce it on.
+2022-01-31 16:05:30 [protego] DEBUG: Rule at line 23 without any user agent to enforce it on.
+2022-01-31 16:05:30 [protego] DEBUG: Rule at line 32 without any user agent to enforce it on.
+2022-01-31 16:05:30 [protego] DEBUG: Rule at line 36 without any user agent to enforce it on.
+2022-01-31 16:05:30 [protego] DEBUG: Rule at line 37 without any user agent to enforce it on.
+2022-01-31 16:05:30 [protego] DEBUG: Rule at line 62 without any user agent to enforce it on.
+2022-01-31 16:05:30 [protego] DEBUG: Rule at line 72 without any user agent to enforce it on.
+2022-01-31 16:05:30 [protego] DEBUG: Rule at line 82 without any user agent to enforce it on.
+2022-01-31 16:05:30 [protego] DEBUG: Rule at line 92 without any user agent to enforce it on.
+2022-01-31 16:05:30 [protego] DEBUG: Rule at line 102 without any user agent to enforce it on.
+2022-01-31 16:05:30 [protego] DEBUG: Rule at line 112 without any user agent to enforce it on.
+2022-01-31 16:05:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://127.0.0.1:8000/cars/c14> (referer: None)
+2022-01-31 16:05:31 [scrapy.core.scraper] DEBUG: Scraped from <200 http://127.0.0.1:8000/cars/c14>
+{'http://127.0.0.1:8000/movies/m29': 0}
+2022-01-31 16:05:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://127.0.0.1:8000/movies/m29> (referer: http://127.0.0.1:8000/cars/c14)
+2022-01-31 16:05:31 [scrapy.core.scraper] DEBUG: Scraped from <200 http://127.0.0.1:8000/movies/m29>
+{'http://127.0.0.1:8000/health/h4': 1}
+2022-01-31 16:05:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://127.0.0.1:8000/health/h4> (referer: http://127.0.0.1:8000/movies/m29)
+2022-01-31 16:05:31 [scrapy.core.scraper] DEBUG: Scraped from <200 http://127.0.0.1:8000/health/h4>
+{'http://127.0.0.1:8000/cars/c13': 2}
+2022-01-31 16:05:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://127.0.0.1:8000/cars/c13> (referer: http://127.0.0.1:8000/health/h4)
+2022-01-31 16:05:31 [scrapy.core.scraper] DEBUG: Scraped from <200 http://127.0.0.1:8000/cars/c13>
+{'http://127.0.0.1:8000/movies/m28': 3}
+2022-01-31 16:05:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://127.0.0.1:8000/movies/m28> (referer: http://127.0.0.1:8000/cars/c13)
+2022-01-31 16:05:31 [scrapy.core.scraper] DEBUG: Scraped from <200 http://127.0.0.1:8000/movies/m28>
+{'http://127.0.0.1:8000/animals/a16': 4}
+2022-01-31 16:05:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://127.0.0.1:8000/animals/a16> (referer: http://127.0.0.1:8000/movies/m28)
+2022-01-31 16:05:31 [scrapy.core.scraper] DEBUG: Scraped from <200 http://127.0.0.1:8000/animals/a16>
+{'http://127.0.0.1:8000/movies/m27': 5}
+2022-01-31 16:05:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://127.0.0.1:8000/movies/m27> (referer: http://127.0.0.1:8000/animals/a16)
+2022-01-31 16:05:31 [scrapy.core.scraper] DEBUG: Scraped from <200 http://127.0.0.1:8000/movies/m27>
+{'http://127.0.0.1:8000/animals/a17': 6}
+2022-01-31 16:05:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://127.0.0.1:8000/animals/a17> (referer: http://127.0.0.1:8000/movies/m27)
+2022-01-31 16:05:31 [scrapy.core.scraper] DEBUG: Scraped from <200 http://127.0.0.1:8000/animals/a17>
+{'http://127.0.0.1:8000/health/h3': 7}
+2022-01-31 16:05:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://127.0.0.1:8000/health/h3> (referer: http://127.0.0.1:8000/animals/a17)
+2022-01-31 16:05:31 [scrapy.core.scraper] DEBUG: Scraped from <200 http://127.0.0.1:8000/health/h3>
+{'http://127.0.0.1:8000/technology/t7': 8}
+2022-01-31 16:05:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://127.0.0.1:8000/technology/t7> (referer: http://127.0.0.1:8000/health/h3)
+2022-01-31 16:05:32 [scrapy.core.scraper] DEBUG: Scraped from <200 http://127.0.0.1:8000/technology/t7>
+{'http://127.0.0.1:8000/animals/a15': 9}
+2022-01-31 16:05:32 [scrapy.dupefilters] DEBUG: Filtered duplicate request: <GET http://127.0.0.1:8000/animals/a17> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2022-01-31 16:05:32 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-01-31 16:05:32 [scrapy.extensions.feedexport] INFO: Stored json feed (10 items) in: websites.json
+2022-01-31 16:05:32 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2791,
+ 'downloader/request_count': 11,
+ 'downloader/request_method_count/GET': 11,
+ 'downloader/response_bytes': 14493,
+ 'downloader/response_count': 11,
+ 'downloader/response_status_count/200': 10,
+ 'downloader/response_status_count/404': 1,
+ 'dupefilter/filtered': 1,
+ 'elapsed_time_seconds': 1.161865,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 1, 31, 10, 35, 32, 82172),
+ 'item_scraped_count': 10,
+ 'log_count/DEBUG': 42,
+ 'log_count/INFO': 11,
+ 'memusage/max': 57061376,
+ 'memusage/startup': 57061376,
+ 'request_depth_max': 10,
+ 'response_received_count': 11,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/404': 1,
+ 'scheduler/dequeued': 10,
+ 'scheduler/dequeued/memory': 10,
+ 'scheduler/enqueued': 10,
+ 'scheduler/enqueued/memory': 10,
+ 'start_time': datetime.datetime(2022, 1, 31, 10, 35, 30, 920307)}
+2022-01-31 16:05:32 [scrapy.core.engine] INFO: Spider closed (finished)
